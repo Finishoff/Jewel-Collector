@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Collectors</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <h1>Crystal Collectors</h1>
+    <div class="main"> 
+            <p>Each crystal button has a random assigned value from 1-12, click on the crystal to have the value update to the total score.</p>
+            <p>You win by matching the total score with the number randomly assigned already on the page.</p>
+            <p>You will lose instantly the moment you go over the assigned number.</p>
+            </div>  
+
+    <div class="generatedNum"> 
+                <h2 id="randomNumGenerator"></h2>
+
+         <div class="row">
+            <p>Wins <span id="win-count">0</span></p>
+            <p>Losses <span id="loss-count">0</span></p>
+         </div>
+    
+
+        <div class="iconbutton">
+                <button id="button-1" ><img src="assets/images/bluegem.jpg"><p>Blue gem</p></button>
+                <button id="button-2" ><img src="assets/images/pinkgem.jpg"><p></p>Pink gem</p></button>
+                <button id="button-3" ><img src="assets/images/purplegem.png"><p>Purple gem</p></button>
+                <button id="button-4" ><img src="assets/images/yellowgem.jpg"><p>Yellow gem</p></button>
+                <br><br>
+            </div>
+        </div> 
+    </div>
+     
+            <div class="result"> 
+                    <h2><font>Total score clicked: </font></h2>
+                    <h2 id="totalScore"></h2>
+            </div>
+
+
+</body>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</html>
