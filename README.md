@@ -10,4 +10,4 @@
 * using addEventLister function to each click to increment score and check player scores
 
 
-[Demon link](https://dev-lam.github.io/Jewel-Collector/)
+[Demo link](https://dev-lam.github.io/Jewel-Collector/)
